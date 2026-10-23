@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "basescanner",
+  "version": "${version}",
+  "name": "Base Scanner",
+  "description": "Client-side area scanner: detects storage blocks as you explore, scans a configurable 20x20 area around them, lists everything it finds and estimates a heuristic Base Likelihood score.",
+  "authors": ["Base Scanner contributors"],
+  "license": "MIT",
+  "icon": "assets/basescanner/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.basescanner.BaseScannerClient"]
+  },
+  "mixins": ["basescanner.mixins.json"],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

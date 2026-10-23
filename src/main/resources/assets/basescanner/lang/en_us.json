@@ -1,0 +1,9 @@
+{
+  "category.basescanner": "Base Scanner",
+  "key.basescanner.details": "Open area details",
+  "key.basescanner.settings": "Open scanner settings",
+  "key.basescanner.toggle_interface": "Hide / show scanner interface",
+  "key.basescanner.cycle_area": "Cycle focused area",
+  "key.basescanner.clear_target": "Clear navigation target",
+  "key.basescanner.scan_now": "Rescan now"
+}
